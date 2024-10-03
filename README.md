@@ -8,24 +8,28 @@ Déployer une infrastructure sur AWS avec Terraform comprenant une instance EC2,
 ## Étapes à suivre :
 
 1. Écrire un module pour l'instance EC2 
+
 Un aperçu de ce module en image:
 
 ![alt text](images/image-1.png)
 
 
 2. Écrire un module pour le volume EBS
+
 Un aperçu de ce module en image:
 
 ![alt text](images/image-2.png)
 
 
 3. Écrire un module pour l'IP publique 
+
 Un aperçu de ce module en image:
 
 ![alt text](images/image-3.png)
 
 
 4. Écrire un module pour le groupe de sécurité 
+
 Un aperçu de ce module en image:
 
 ![alt text](images/image-4.png)
@@ -33,7 +37,7 @@ Un aperçu de ce module en image:
 
 5. Création du dossier principal (app)
 
-Ce dossier contient les fichiers nécessaire pour la configiration de l'infrastructure et fait appel des modules cités plus haut dans son fichier de base main.tf .
+Ce dossier contient les fichiers nécessaire pour la configiration de l'infrastructure et fait appel aux modules cités plus haut dans son fichier de base main.tf .
 
 ![alt text](images/image-5.png)
 
