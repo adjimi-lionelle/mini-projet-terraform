@@ -1,4 +1,4 @@
-# Mini-projet Terraform : Déploiement d'une infrastructure complète
+# Mini-projet Terraform : Déploiement d'une infrastructure pour héberger un site web.
 
 ![alt text](images/Terraform.png)
 
@@ -37,7 +37,7 @@ Un aperçu de ce module en image:
 
 5. Création du dossier principal (app)
 
-Ce dossier contient les fichiers nécessaire pour la configiration de l'infrastructure et fait appel aux modules cités plus haut dans son fichier de base main.tf .
+Ce dossier contient les fichiers nécessaire pour la configuration de l'infrastructure et fait appel aux modules cités plus haut dans son fichier de base main.tf .
 
 ![alt text](images/image-5.png)
 
